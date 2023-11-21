@@ -10,10 +10,10 @@
   background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/ColorfulPodcastInterviewYouTubeThumbnail.png");
   background-position: 35.58% 50%;
   --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
+  --animation-custom_in-scale: 1;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -97,12 +97,12 @@
 
 .u-section-2 .u-layout-cell-2 {
   min-height: 478px;
+  background-image: none;
   --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
-  background-image: none;
+  --animation-custom_in-scale: 1;
 }
 
 .u-section-2 .u-container-layout-2 {
@@ -189,7 +189,6 @@
   grid-template-columns: calc(50% - 9.5px) calc(50% - 9.5px);
   min-height: 324px;
   grid-gap: 19px 19px;
-  grid-auto-columns: calc(50% - 9.5px);
 }
 
 .u-section-3 .u-list-item-1 {
@@ -262,14 +261,12 @@
 
   .u-section-3 .u-repeater-1 {
     grid-template-columns: calc(50% - 9.50003px) calc(50% - 9.50003px);
-    grid-auto-columns: calc(100% - 0px);
   }
 }
 
 @media (max-width: 767px) {
   .u-section-3 .u-repeater-1 {
     grid-template-columns: 100%;
-    grid-auto-columns: 100%;
   }
 
   .u-section-3 .u-container-layout-1 {
