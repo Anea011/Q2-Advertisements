@@ -41729,35 +41729,56 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 80px;
+  min-height: 79px;
+  margin: 0 auto;
+}
+
+.u-header .u-social-icons-1 {
+  white-space: nowrap;
+  height: 26px;
+  min-height: 16px;
+  width: 98px;
+  min-width: 68px;
+  margin: 22px 0 0 auto;
+}
+
+.u-header .u-icon-1 {
+  color: rgb(59, 89, 152) !important;
+}
+
+.u-header .u-icon-2 {
+  color: rgb(197, 54, 164) !important;
+}
+
+.u-header .u-icon-3 {
+  height: 100%;
+  color: rgb(210, 34, 21) !important;
 }
 
 .u-header .u-menu-1 {
-  margin: 22px auto 22px 0;
+  margin: -31px 118px 26px auto;
 }
 
 .u-header .u-nav-1 {
   font-weight: 400;
   font-size: 1rem;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
-    width: auto;
+    margin-top: -31px;
   }
 }
-@media (max-width: 991px) {
+
+
+@media (max-width: 575px) {
   .u-header .u-menu-1 {
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-right: 74px;
   }
 }
-
-
  .u-footer {
   background-image: none;
 }
@@ -41767,31 +41788,54 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-1 {
-  width: 417px;
-  margin: 35px auto;
+  margin: 20px 326px 0 397px;
+}
+
+.u-footer .u-social-icons-1 {
+  white-space: nowrap;
+  height: 26px;
+  min-height: 16px;
+  width: 98px;
+  min-width: 68px;
+  margin: 12px 485px 12px auto;
+}
+
+.u-footer .u-icon-1 {
+  color: rgb(59, 89, 152) !important;
+}
+
+.u-footer .u-icon-2 {
+  color: rgb(197, 54, 164) !important;
+}
+
+.u-footer .u-icon-3 {
+  height: 100%;
+  color: rgb(210, 34, 21) !important;
 }
 @media (max-width: 1199px) {
-  .u-footer .u-sheet-1 {
-    min-height: 99px;
+  .u-footer .u-text-1 {
+    width: 417px;
+    margin-left: 297px;
+    margin-right: 226px;
   }
 }
 @media (max-width: 991px) {
-  .u-footer .u-sheet-1 {
-    min-height: 76px;
+  .u-footer .u-text-1 {
+    margin-left: 187px;
+    margin-right: 116px;
   }
 }
 @media (max-width: 767px) {
-  .u-footer .u-sheet-1 {
-    min-height: 57px;
+  .u-footer .u-text-1 {
+    margin-left: 97px;
+    margin-right: 26px;
   }
 }
 @media (max-width: 575px) {
-  .u-footer .u-sheet-1 {
-    min-height: 36px;
-  }
-
   .u-footer .u-text-1 {
     width: 340px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
